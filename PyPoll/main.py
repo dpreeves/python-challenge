@@ -72,7 +72,7 @@ def winner(candidates):
         file.write("\n")
         for i in range(x):
             voteByCandidate = sorted(cand_dict.keys(),reverse=True)[i]
-            votePercentage = (voteByCandidate/total_votes)*10   
+            votePercentage = (voteByCandidate/total_votes)*100   
             print(cand_dict[voteByCandidate]) 
             print(votePercentage) 
             print(voteByCandidate)  
